@@ -5,7 +5,7 @@ export class Task {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({ type: 'varchar', nullable: true })
+  @Column('varchar')
   title: string;
 
   @Column({ nullable: true })
